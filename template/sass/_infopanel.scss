@@ -1,0 +1,89 @@
+@media (max-width: 400px) {
+  .info-panel-header {
+    color:                        $roth_red;
+    font-weight:                  bold;
+    padding-top:                  9px;
+    text-align:                   center;
+  }
+  .info-panel-body-right {
+    height:                       1px;
+    margin-top:                   10px;
+  }
+  
+  .info-panel-body-left {
+    margin:                       0px auto;
+    width:                        50%;
+    
+    button {
+      color: transparent;
+      background-color: transparent;
+      border: 1px solid transparent;
+      outline-color: transparent;
+      display:                    block;
+//      visibility:                 hidden;
+      @include                    border-radius(360px);
+
+      &>img {
+        width:                    128px;
+        visibility:               visible;
+        @include                  border-radius(360px);
+        @include                  transition(box-shadow ease-in-out 0.5s);
+        
+        &:hover {
+          @include                box-shadow(5px 5px 10px #BBBBBB);
+          
+        }
+      }
+    }
+    
+    &>img {
+      display:                      none;
+    }
+  }
+}
+
+@media (min-width: 401px) {
+  .info-panel-header {
+    border-bottom:                1px solid $roth_red;
+    color:                        $roth_red;
+    font-weight:                  bold;
+    margin-left:                  10.5px;
+    padding:                      9px;
+    width:                        90%;
+  }
+
+  .info-panel-body-left {
+    display:                      inline-block;    
+
+    button {
+      display:                    none;
+    }
+    
+    img {
+      display:                    inline;
+    }
+  }
+  
+  .info-panel-body-right {
+    color:                        $roth_red;
+    display:                      inline-block;
+    font-size:                    1.1em;
+    padding-left:                 9px;
+    vertical-align:               middle;
+  }
+}
+
+.info-panel {
+  border:                         1px solid #EEEEEE;
+  margin:                         10px auto;
+  width:                          90%;
+  @include                        box-shadow(5px 5px 10px #EEEEEE);
+}
+
+.info-panel-body {
+  min-height:                   180px;
+  padding-bottom:               9px;
+  padding-left:                 12.5px;
+  padding-top:                  10px;
+}
+  
