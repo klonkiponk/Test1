@@ -39,6 +39,23 @@ h1.slogan {
   z-index:                  10;
 }
 
+.numbereddl {
+  dt > span {
+    display: inline-block;
+    font-size: 2em;
+    vertical-align: middle;
+  }
+  
+  dt > span + span {
+    display: inline-block;
+    font-size: 1em;
+    vertical-align: middle;
+  }
+  
+  dd {
+    margin-left: 20px;
+  }
+}
 .sitemap {
   ul {
     a {
@@ -55,5 +72,26 @@ h1.slogan {
     li {
       margin-bottom:        5px;
     }
+    
+    ul li:first-child {
+      font-size:            1.1em;
+      font-weight:          bold;
+      margin-bottom:        10px;      
+    }
+  }
+}
+
+table.formula {
+  border-collapse:          separate;
+  border-spacing:           10px;
+  margin:                   0px auto;
+  font-style:               italic;
+
+  tr + tr > td {
+    border-top:             1px solid black;
+  }
+
+  td {
+    text-align:             center;
   }
 }

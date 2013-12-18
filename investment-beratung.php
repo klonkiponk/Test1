@@ -14,7 +14,7 @@
     </div>
     <div class="container main-container">
         <div class="row">
-            <div class="col-lg-12"><h1>Über uns...</h1></div>
+            <div class="col-lg-12"><h1>Investmentberatung</h1></div>
         </div>
     </div>
 <?php include_once("template/footer.php"); ?>

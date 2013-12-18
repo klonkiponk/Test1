@@ -14,7 +14,7 @@
     </div>
     <div class="container main-container">
         <div class="row">
-            <div class="col-lg-12"><h1>Worauf es bei einer Immobilien-Investition ankommt!</h1></div>
+            <div class="col-lg-12"><h1>Investieren</h1></div>
         </div>
     </div>
 <?php include_once("template/footer.php"); ?>

@@ -42,8 +42,8 @@
             </div>
             <nav class="navbar-collapse header-navbar-collapse collapse" role="navigation">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Investieren</a></li>
-                    <li><a href="#">Investmentberatung</a></li>
+                    <li><a href="./investieren.php">Investieren</a></li>
+                    <li><a href="./investment-beratung.php">Investmentberatung</a></li>
                     <li><a href="#">Für Eigentümer und Bestandskunden</a></li>
                 </ul>
             </nav>
