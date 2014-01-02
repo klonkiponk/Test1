@@ -1,4 +1,8 @@
 footer {
+background-color: rgb(160,160,160);
+@include filter-gradient(#a0a0a0, #ffffff, vertical);
+@include background-image(linear-gradient(top,  rgba(160,160,160,1) 0%,rgba(237,237,237,1) 8%,rgba(255,255,255,1) 100%));
+
 	.navbar-inverse {
 		background-color: #ff3019;
 		@include filter-gradient(#ff3019, #cf0404, vertical);
