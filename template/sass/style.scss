@@ -1,11 +1,9 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
-//$roth_red:                 red;
-$roth_red:                 #A31313;
+$roth_red:                 #cf0404;
+@mixin boxShadow(){
+	@include box-shadow(1px 1px 5px #bbb);
+}
 @import "compass";
 @import "main";
 @import "navbar";
-@import "infopanel"
+@import "infopanel";
+@import "footer";

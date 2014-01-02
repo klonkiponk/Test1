@@ -1,0 +1,7 @@
+footer {
+	.navbar-inverse {
+		background-color: #ff3019;
+		@include filter-gradient(#ff3019, #cf0404, vertical);
+		@include background-image(linear-gradient(top,  #ff3019 0%,#cf0404 100%));
+	}
+}

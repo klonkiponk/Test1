@@ -23,20 +23,33 @@ h1.slogan {
   color:                  #333;
   font-weight:            bold;
 }
-  
+
 .jumbotron {
-  background-image:       url('../img/roth_immoinvest.jpg');
+	background:#fff;
+	padding-bottom:0;
+	margin-bottom: 		  45px;
+}
+  
+.jumbotron .row {
+  background-image:       url('../img/jumbotron/2.jpg');
   background-repeat:      no-repeat;
-  background-size:        cover;
-  height:                 75%;
+  background-size:  	  cover;
+  height:                 400px;
+  @include boxShadow();
 }
 
 .main-container {
   background-color:         white;
-  border:                   1px solid #CCC;
-  margin-top:               -75px;
+//  border:                   1px solid #CCC;
+//  margin-top:               -75px;
   position:                 relative;
+  padding-left: 			0;
+  padding-right:			0;
   z-index:                  10;
+  .row {
+	  margin-left: 			0;
+	  margin-right: 		0;
+  }
 }
 
 .numbereddl {
@@ -94,4 +107,14 @@ table.formula {
   td {
     text-align:             center;
   }
+}
+
+footer {
+	margin-top:15px;
+}
+
+.row {
+	.col-md-12,.col-md-6 {
+		margin-bottom: 15px;
+	}
 }

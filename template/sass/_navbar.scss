@@ -1,3 +1,5 @@
+
+
 @media (min-width: 1000px) { /* 768px */
   .form-horizontal .control-label {
     text-align: right;
@@ -249,7 +251,7 @@
 
 footer .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 0;  
   border: 1px solid transparent;
 }
 
@@ -1268,4 +1270,12 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+footer .navbar-nav>li {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.navbar-default .navbar-nav>li>a {
+	color:#666;
 }

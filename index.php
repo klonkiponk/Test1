@@ -1,7 +1,7 @@
 <?php $page_title = "Roth Immoinvest GmbH"; ?>
 
 <?php include_once("template/header.php"); ?>
-    <div class="jumbotron">
+    <div class="jumbotron container">
         <div class="row">
             <div class="col-md-10">
                 <h1 class="slogan">Immobilienkauf leicht gemacht!</h1>
@@ -17,11 +17,11 @@
             <div class="col-lg-6 col-md-6">
                 <div class="info-panel gradient">
                     <div class="info-panel-header">
-                        Unsere Immobilien
+                        <h2>Unsere Immobilien</h2>
                     </div>
                     <div class="info-panel-body">
                         <div class="info-panel-body-left">
-                            <img src="template/img/immobilien.jpg" alt="Unsere Immobilien"/>
+                            <img src="template/img/unsere_immobilien.jpg" alt="Unsere Immobilien"/>
                             <button type="button" class="collapsed" data-target=".info-panel-body-right-1" data-toggle="collapse">
                                 <img src="template/img/immobilien.jpg" alt="Unsere Immobilien"/>
                             </button>
@@ -35,11 +35,11 @@
             <div class="col-lg-6 col-md-6">
                 <div class="info-panel gradient">
                     <div class="info-panel-header">
-                        Kontakt
+                        <h2>Kontakt</h2>
                     </div>
                     <div class="info-panel-body">
                         <div class="info-panel-body-left">
-                            <img src="template/img/telefon_hoerer.png" alt="Das Symbol eines Telefonhörers"/>
+                            <img src="template/img/telefon_hoerer.jpg" alt="Das Symbol eines Telefonhörers"/>
                             <button type="button" class="collapsed" data-target=".info-panel-body-right-2" data-toggle="collapse">
                                 <img src="template/img/telefon_hoerer.png" alt="Das Symbol eines Telefonhörers"/>
                             </button>
@@ -71,7 +71,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="info-panel gradient">
                     <div class="info-panel-header">
-                        Jobs/Karriere
+                        <h2>Jobs/Karriere</h2>
                     </div>
                     <div class="info-panel-body">
                         <div class="info-panel-body-left">
@@ -88,7 +88,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="info-panel gradient">
                     <div class="info-panel-header">
-                        Über uns
+                        <h2>Über uns</h2>
                     </div>
                     <div class="info-panel-body">
                         <div class="info-panel-body-left">
@@ -108,7 +108,7 @@
             <div class="col-lg-12 col-md-12">
                 <div class="info-panel gradient">
                     <div class="info-panel-header">
-                        Ausgewählte Referenzen
+                        <h2>Ausgewählte Referenzen</h2>
                     </div>
                     <div class="info-panel-body">
                         <div class="info-panel-body-left">
