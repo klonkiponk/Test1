@@ -31,11 +31,15 @@ h1.slogan {
 }
   
 .jumbotron .row {
-  background-image:       url('../img/jumbotron/2.jpg');
+  background-image:       url('../img/jumbotron/7.jpg');
   background-repeat:      no-repeat;
   background-size:  	  cover;
   height:                 400px;
   @include boxShadow();
+  h1 {
+	  @include textShadow();
+	  margin-bottom: 50px;  
+  }
 }
 
 .main-container {

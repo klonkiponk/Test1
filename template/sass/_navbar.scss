@@ -422,6 +422,7 @@ footer .navbar {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  @include textShadowLite();
 }
 .navbar-brand:hover,
 .navbar-brand:focus {

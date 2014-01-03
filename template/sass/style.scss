@@ -2,6 +2,15 @@ $roth_red:                 #cf0404;
 @mixin boxShadow(){
 	@include box-shadow(1px 1px 5px #bbb);
 }
+@mixin textShadow(){
+	@include text-shadow(1px 1px 3px #666);
+}
+@mixin textShadowLite(){
+	@include text-shadow(1px 1px 1px #bbb);
+}
+@mixin textShadowLiteDark(){
+	@include text-shadow(1px 1px 1px #333);
+}
 @import "compass";
 @import "main";
 @import "navbar";
